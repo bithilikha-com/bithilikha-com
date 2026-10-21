@@ -57,7 +57,7 @@
 
   .noise{
     position:fixed; inset:0; z-index:1; pointer-events:none; opacity:0.035; mix-blend-mode:overlay;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncA type='table' tableValues='0 0.22'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
   }
 
   .wrap{max-width:1180px; margin:0 auto; padding:0 32px; position:relative; z-index:2;}
@@ -72,7 +72,7 @@
   }
   nav .wrap{display:flex; justify-content:space-between; align-items:center;}
   .brand{display:flex; align-items:center; gap:10px; font-family:'Cormorant Garamond',serif; font-size:1.3rem; font-weight:700; color:var(--gold-bright); letter-spacing:0.02em;}
-  .brand-mark{width:30px; height:30px; border:1px solid var(--gold); border-radius:2px; display:flex; align-items:center; justify-content:center; font-size:0.85rem; transform:rotate(45deg); color:var(--gold);}
+  .brand-mark{width:30px; height:30px; border:1px solid var(--gold); border-radius:2px; display:flex; align-items:center; justify-content:center; font-size:0.85rem; transform:rotate(45deg); color:var(--gold-bright);}
   .brand-mark span{transform:rotate(-45deg);}
   .nav-links{display:flex; gap:36px; font-size:0.84rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--grey);}
   .nav-links a{position:relative; padding-bottom:4px; transition:color .25s ease;}
@@ -344,13 +344,13 @@
     <div>
       <div class="eyebrow"><span class="dash"></span> প্রতিষ্ঠাতা ও সিইও, Booeb.com</div>
       <h1>নূর হাসান<br><em>সবকিছুর জন্য একটি বাজার</em> গড়ে তুলছেন</h1>
-      <p class="lede">ফ্যাশন থেকে ইলেকট্রনিক্স, কসমেটিক্স থেকে দৈনন্দিন প্রয়োজনীয় পণ্য — Booeb.com একটি সর্বজনীন ই-কমার্স প্ল্যাটফর্ম, যেখানে লক্ষাধিক ক্রেতা ও বিক্রেতা একই ছাদের নিচে মিলিত হন।</p>
+      <p class="lede">ফ্যাশন থেকে ইলেকট্রনিক্স, কসমেটিক্স থেকে দৈনন্দিন প্রয়োজনীয় পণ্যের সবকিছু একসাথে সাজানো। Booeb.com হলো এমন একটি ডিজিটাল বাজার, যেখানে ক্রেতা ও বিক্রেতা—দুই পক্ষই সহজে একে অপরের পাশে আসে।</p>
       <div class="hero-cta">
         <a href="#platform" class="btn-primary">প্ল্যাটফর্ম দেখুন</a>
         <a href="#contact" class="btn-ghost">যোগাযোগ করুন</a>
       </div>
     </div>
-<div class="orbit-stage" aria-hidden="true">
+    <div class="orbit-stage" aria-hidden="true">
       <div class="ring ring--2"></div>
       <div class="ring ring--1"></div>
       <div class="orbit-core">
@@ -374,7 +374,7 @@
       <div class="about-grid">
         <div class="reveal">
           <div class="portrait-frame">
-            <img src="assets/noor-hasan.jpg" alt="নূর হাসান, প্রতিষ্ঠাতা ও সিইও, Booeb.com" class="portrait-img">
+            <img src="assets/noor-hasan.jpg" alt="নূর হাসান, প্রতিষ্ঠাতা ও সিইও, Booeb.com" class="portrait-img" loading="eager" decoding="async">
           </div>
           <div class="portrait-caption">
             <span>নূর হাসান</span>
@@ -384,9 +384,9 @@
 
         <div class="about-copy reveal">
           <div class="section-eyebrow"><span class="dash"></span> পরিচিতি</div>
-          <p>একটি মার্কেটপ্লেস তৈরি করা মানে শুধু পণ্য বিক্রি নয় — এটি একটি বিশ্বাসের ব্যবস্থা গড়ে তোলা।</p>
-          <p>নূর হাসান <strong>Booeb.com</strong> প্রতিষ্ঠা করেছেন এমন একটি লক্ষ্য নিয়ে, যেখানে বাংলাদেশের ক্রেতারা অ্যামাজন বা দারাজের মতো বিশ্বমানের অভিজ্ঞতা দেশীয় প্রেক্ষাপটে পাবেন। ফ্যাশন, ইলেকট্রনিক্স, কসমেটিক্স থেকে শুরু করে দৈনন্দিন প্রয়োজনীয় প্রতিটি পণ্য একটি প্ল্যাটফর্মের মধ্যে নিয়ে আসাই তাঁর মূল দর্শন।</p>
-          <p>প্রযুক্তি, লজিস্টিক্স এবং বিক্রেতা-বান্ধব নীতির সমন্বয়ে তিনি এমন একটি ইকোসিস্টেম তৈরি করছেন যেখানে ছোট ব্যবসায়ী থেকে বড় ব্র্যান্ড — সবাই সমান সুযোগ পান।</p>
+          <p>একটি মার্কেটপ্লেস তৈরি করা মানে শুধু পণ্য বিক্রি নয় — এটি একটি বিশ্বস্ত ডিজিটাল অভিজ্ঞতা, যেখানে ভোক্তা, বিক্রেতা ও নীতি একসাথে মিলে কাজ করে।</p>
+          <p>নূর হাসান <strong>Booeb.com</strong> প্রতিষ্ঠা করেছেন এমন একটি লক্ষ্য নিয়ে, যেখানে বাংলাদেশের মানুষ সহজে প্রয়োজনীয় পণ্য খুঁজে পাবে—সেটি ফ্যাশন হোক, ইলেকট্রনিক্স হোক, বা দৈনন্দিন জীবনযাত্রার সামগ্রী।</p>
+          <p>প্রযুক্তি, লজিস্টিক্স এবং বিক্রেতা-বান্ধব নীতির সমন্বয়ে তিনি এমন এক marketplace গড়তে চাইছেন, যেখানে প্রতিটি কেনাকাটা দ্রুত, নির্ভরযোগ্য ও স্বচ্ছ হয়।</p>
 
           <div class="pull-stats">
             <div><span class="n">৫০+</span><span class="l">ক্যাটাগরি</span></div>
@@ -405,7 +405,7 @@
       <div class="section-head reveal">
         <div class="section-eyebrow"><span class="dash"></span> ক্যাটাগরি</div>
         <h2>একটি প্ল্যাটফর্ম, প্রতিটি প্রয়োজন</h2>
-        <p>Booeb.com-এ ক্রেতারা একটি সিঙ্গেল প্ল্যাটফর্ম থেকেই সব ধরনের পণ্য খুঁজে পান — ঠিক যেভাবে বিশ্বের বড় বড় মার্কেটপ্লেসগুলো কাজ করে।</p>
+        <p>Booeb.com-এ ক্রেতারা একটি সিঙ্গেল প্ল্যাটফর্ম থেকেই সব ধরনের পণ��য খুঁজে পান — ফ্যাশন, ইলেকট্রনিক্স, কসমেটিক্স, হোম লিভিং এবং আরও অনেক কিছু।</p>
       </div>
 
       <div class="cat-rail reveal">
@@ -440,25 +440,25 @@
       <div class="section-head reveal">
         <div class="section-eyebrow"><span class="dash"></span> প্ল্যাটফর্ম</div>
         <h2>যে নীতির ওপর Booeb.com দাঁড়িয়ে</h2>
-        <p>একটি বিশ্বমানের মার্কেটপ্লেস গড়তে যে স্তম্ভগুলো অপরিহার্য, তার ওপরই গড়ে উঠেছে এই প্ল্যাটফর্ম।</p>
+        <p>একটি বিশ্বমানের মার্কেটপ্লেস গড়তে যে স্তম্ভগুলো অপরিহার্য, তার ওপরই Booeb.com-এর ভিত্তি দাঁড়িয়ে আছে।</p>
       </div>
 
       <div class="feature-list reveal">
         <div class="feature-row">
           <span class="feature-mark">I</span>
-          <div><h4>সর্বজনীন ক্যাটালগ</h4><p>একই প্ল্যাটফর্মে অসংখ্য ক্যাটাগরির পণ্য — ক্রেতাকে বিভিন্ন সাইটে যাওয়ার প্রয়োজন নেই।</p></div>
+          <div><h4>সর্বজনীন ক্যাটালগ</h4><p>একই প্ল্যাটফর্মে অসংখ্য ক্যাটাগরির পণ্য — ক্রেতার জন্য একটি সহজ ও দ্রুত খোঁজার অভিজ্ঞতা।</p></div>
         </div>
         <div class="feature-row">
           <span class="feature-mark">II</span>
-          <div><h4>বিক্রেতা-বান্ধব ইকোসিস্টেম</h4><p>ছোট উদ্যোক্তা থেকে বড় ব্র্যান্ড — সবার জন্য সহজ অনবোর্ডিং ও ন্যায্য সুযোগ।</p></div>
+          <div><h4>বিক্রেতা-বান্ধব ইকোসিস্টেম</h4><p>ছোট উদ্যোক্তা থেকে বড় ব্র্যান্ড — সবকে একই প্ল্যাটফর্মে জায়গা দেওয়া।</p></div>
         </div>
         <div class="feature-row">
           <span class="feature-mark">III</span>
-          <div><h4>নিরাপদ লেনদেন</h4><p>ক্রেতা ও বিক্রেতা দুই পক্ষের জন্যই নিরাপদ পেমেন্ট ও অর্ডার সুরক্ষা ব্যবস্থা।</p></div>
+          <div><h4>নিরাপদ লেনদেন</h4><p>ক্রেতা ও বিক্রেতা দুই পক্ষের জন্যই নিরাপদ পেমেন্ট ও ট্রানজেকশন নিশ্চিত করা।</p></div>
         </div>
         <div class="feature-row">
           <span class="feature-mark">IV</span>
-          <div><h4>দ্রুত ডেলিভারি নেটওয়ার্ক</h4><p>দেশের প্রতিটি অঞ্চলে পণ্য পৌঁছে দেওয়ার লক্ষ্যে গড়ে তোলা লজিস্টিক্স অংশীদারিত্ব।</p></div>
+          <div><h4>দ্রুত ডেলিভারি নেটওয়ার্ক</h4><p>দেশের প্রতিটি অঞ্চলে পণ্য পৌঁছে দেওয়ার জন্য কার্যকর লজিস্টিক্স ব্যবস্থা।</p></div>
         </div>
       </div>
     </div>
@@ -470,29 +470,29 @@
     <div class="wrap">
       <div class="section-head reveal">
         <div class="section-eyebrow"><span class="dash"></span> যাত্রা</div>
-        <h2>একটি ধারণা থেকে প্ল্যাটফর্মে রূপান্তর</h2>
+        <h2>একটি ধারণা থেকে প্ল্য���টফর্মে রূপান্তর</h2>
       </div>
 
       <div class="journey reveal">
         <div class="jrow">
           <span class="year">শুরুর ভাবনা</span>
           <h4>একটি শূন্যতা চিহ্নিত করা</h4>
-          <p>দেশের ক্রেতাদের জন্য বিভিন্ন ধরনের পণ্য খোঁজার ক্ষেত্রে যে বিক্ষিপ্ততা ছিল, তা সমাধানের তাড়না থেকেই Booeb.com-এর ধারণার জন্ম।</p>
+          <p>দেশের ক্রেতাদের জন্য বিভিন্ন ধরনের পণ্য খোঁজার ক্ষেত্রে যে বিক্ষিপ্ততা ও অসুবিধা ছিল, তা চিহ্নিত করে platform-এ রূপ দেওয়ার চিন্তা।</p>
         </div>
         <div class="jrow">
           <span class="year">ভিত্তি স্থাপন</span>
           <h4>প্ল্যাটফর্মের কাঠামো গঠন</h4>
-          <p>প্রযুক্তি, বিক্রেতা নেটওয়ার্ক এবং লজিস্টিক্স — তিনটি স্তম্ভকে একসাথে সাজিয়ে প্ল্যাটফর্মের ভিত্তি তৈরি করা হয়।</p>
+          <p>প্রযুক্তি, বিক্রেতা নেটওয়ার্ক এবং লজিস্টিক্স — তিনটি স্তম্ভকে একসাথে রেখে Booeb.com-এর ভিত্তি তৈরি হয়।</p>
         </div>
         <div class="jrow">
           <span class="year">সম্প্রসারণ</span>
           <h4>একাধিক ক্যাটাগরিতে বিস্তার</h4>
-          <p>ফ্যাশন থেকে শুরু করে ধীরে ধীরে ইলেকট্রনিক্স, কসমেটিক্স ও আরও অনেক ক্যাটাগরি যুক্ত করে প্ল্যাটফর্মকে সর্বজনীন করে তোলা।</p>
+          <p>ফ্যাশন থেকে শুরু করে ধীরে ধীরে ইলেকট্রনিক্স, কসমেটিক্স ও আরও অনেক ক্যাটাগরিতে বিস্তার ঘটানো।</p>
         </div>
         <div class="jrow">
           <span class="year">বর্তমান লক্ষ্য</span>
           <h4>দেশের শীর্ষ মার্কেটপ্লেস হয়ে ওঠা</h4>
-          <p>প্রতিটি ক্রেতার প্রথম পছন্দ হয়ে ওঠার লক্ষ্যে নূর হাসানের নেতৃত্বে Booeb.com আজও এগিয়ে চলছে।</p>
+          <p>প্রতিটি ক্রেতার প্রথম পছন্দ হয়ে ওঠার লক্ষ্যে নূর হাসানের নেতৃত্বে Booeb.com এগিয়ে চলেছে।</p>
         </div>
       </div>
     </div>
@@ -504,7 +504,7 @@
     <div class="wrap">
       <div class="quote-block reveal">
         <span class="mark">"</span>
-        <p>আমরা পণ্য বিক্রি করি না — আমরা মানুষকে তার প্রয়োজনীয় সবকিছুর কাছে সহজ পথে পৌঁছে দিই।</p>
+        <p>আমরা পণ্য বিক্রি করি না — আমরা মানুষকে তার প্রয়োজনীয় সবকিছুর কাছে সহজভাবে পৌঁছে দিতে চাই।</p>
         <div class="quote-attr">— নূর হাসান, প্রতিষ্ঠাতা ও সিইও</div>
       </div>
     </div>
@@ -515,7 +515,7 @@
       <div class="contact-panel reveal">
         <div>
           <h2>কথা বলতে চান?</h2>
-          <p>ব্যবসায়িক পার্টনারশিপ, বিক্রেতা নিবন্ধন, বা সাধারণ যোগাযোগের জন্য নিচের কোনো মাধ্যমে যুক্ত হতে পারেন।</p>
+          <p>ব্যবসায়িক পার্টনারশিপ, বিক্রেতা নিবন্ধন, বা সাধারণ যোগাযোগের জন্য নিচের আপশনগুলো ব্যবহার করুন।</p>
         </div>
         <div class="contact-links">
           <a href="mailto:contact@booeb.com"><span><span class="label">ইমেইল</span><br>contact@booeb.com</span><span class="arrow">→</span></a>
