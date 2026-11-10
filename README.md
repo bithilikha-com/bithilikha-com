@@ -374,7 +374,7 @@
       <div class="about-grid">
         <div class="reveal">
           <div class="portrait-frame">
-            <img src="https://github.com/bithilikha-com/bithilikha-com/blob/main/1754226218262.jpg" alt="নূর হাসান, প্রতিষ্ঠাতা ও সিইও, Booeb.com" class="portrait-img">
+            <img src="https://raw.githubusercontent.com/bithilikha-com/bithilikha-com/main/1754226218262.jpg" alt="নূর হাসান, প্রতিষ্ঠাতা ও সিইও, Booeb.com" class="portrait-img">
           </div>
           <div class="portrait-caption">
             <span>নূর হাসান</span>
