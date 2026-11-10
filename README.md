@@ -518,7 +518,7 @@
           <p>ব্যবসায়িক পার্টনারশিপ, বিক্রেতা নিবন্ধন, বা সাধারণ যোগাযোগের জন্য নিচের কোনো মাধ্যমে যুক্ত হতে পারেন।</p>
         </div>
         <div class="contact-links">
-          <a href="mailto:contact@booeb.com"><span><span class="label">ইমেইল</span><br>contact@booeb.com</span><span class="arrow">→</span></a>
+          <a href="mailto:booeb.com@gmail.com"><span><span class="label">ইমেইল</span><br>booeb.com@gmail.com</span><span class="arrow">→</span></a>
           <a href="https://booeb.com" target="_blank" rel="noopener"><span><span class="label">ওয়েবসাইট</span><br>booeb.com</span><span class="arrow">→</span></a>
           <a href="#"><span><span class="label">লিংকডইন</span><br>Noor Hasan</span><span class="arrow">→</span></a>
         </div>
